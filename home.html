@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONE LAST TIME !!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="site.css">
+</head>
+<body>
+    <div class="container">
+        <header class="site-header">
+            <div class="top-actions">
+                <span></span>
+                <button class="music-control" id="musicControl" type="button" onclick="toggleMusic()">Music</button>
+            </div>
+            <h1 class="main-title">PRAJWAL RAJ</h1>
+            <p class="subtitle">ONE LAST TIME for the LOVE of ENGINEERING !!</p>
+        </header>
+
+        <div class="notice-banner">
+            <p class="notice-text">
+
+तू पहला पहला प्यार है मेरा
+</p>
+        </div>
+
+        <main class="cards-container">
+            <article class="course-card">
+                <div class="card-icon">WM</div>
+                <h2 class="card-title">Integrated Waste Management</h2>
+                <p class="card-description">
+                    Open the waste management subject files and copy each prepared part in order.
+                </p>
+                <button class="card-button" type="button" onclick="navigateToCourse('waste-management')">Start Course</button>
+            </article>
+
+            <article class="course-card">
+                <div class="card-icon">SN</div>
+                <h2 class="card-title">Social Networks</h2>
+                <p class="card-description">
+                    Open the social networks subject files and copy each prepared part in order.
+                </p>
+                <button class="card-button" type="button" onclick="navigateToCourse('social-networks')">Start Course</button>
+            </article>
+        </main>
+
+        <footer class="site-footer">
+            <p>LOVE YOU!!</p>
+        </footer>
+    </div>
+
+    <script src="site.js"></script>
+</body>
+</html>

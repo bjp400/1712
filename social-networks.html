@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Networks - WE ARE PRAJWAL PAGLU'S</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="site.css">
+</head>
+<body>
+    <div class="container">
+        <header class="site-header">
+            <div class="top-actions">
+                <a href="home.html" class="back-button">Back to Hub</a>
+                <button class="music-control" id="musicControl" type="button" onclick="toggleMusic()">Music</button>
+            </div>
+            <h1 class="main-title">Social Networks</h1>
+            <p class="subtitle">135 lectures - 5 prepared parts</p>
+        </header>
+
+        <div class="heist-banner">
+            <p class="heist-text">Copy each part in order</p>
+        </div>
+
+        <main class="cards-grid">
+            <article class="code-card">
+                <div class="part-number">1</div>
+                <h2 class="card-title">Part 1</h2>
+                <p class="card-description">Start the social networks flow with part one.</p>
+                <button class="copy-button" type="button" onclick="copyCode('socialnetworks1.js', event.currentTarget)">Copy Code</button>
+            </article>
+
+            <article class="code-card">
+                <div class="part-number">2</div>
+                <h2 class="card-title">Part 2</h2>
+                <p class="card-description">Continue with the second prepared part.</p>
+                <button class="copy-button" type="button" onclick="copyCode('socialnetworks2.js', event.currentTarget)">Copy Code</button>
+            </article>
+
+            <article class="code-card">
+                <div class="part-number">3</div>
+                <h2 class="card-title">Part 3</h2>
+                <p class="card-description">Copy the third part for the middle batch.</p>
+                <button class="copy-button" type="button" onclick="copyCode('socialnetworks3.js', event.currentTarget)">Copy Code</button>
+            </article>
+
+            <article class="code-card">
+                <div class="part-number">4</div>
+                <h2 class="card-title">Part 4</h2>
+                <p class="card-description">Use the fourth prepared part after part three.</p>
+                <button class="copy-button" type="button" onclick="copyCode('socialnetworks4.js', event.currentTarget)">Copy Code</button>
+            </article>
+
+            <article class="code-card">
+                <div class="part-number">5</div>
+                <h2 class="card-title">Part 5</h2>
+                <p class="card-description">Complete the social networks flow with the final part.</p>
+                <button class="copy-button" type="button" onclick="copyCode('socialnetworks5.js', event.currentTarget)">Copy Code</button>
+            </article>
+        </main>
+    </div>
+
+    <div class="notification" id="notification">Code copied successfully.</div>
+
+    <script src="site.js"></script>
+</body>
+</html>

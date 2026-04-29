@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="site.css">
+</head>
+<body class="gate-page">
+    <main class="gate" id="gate">
+        <button class="garden-button" type="button" onclick="enterSite()" aria-label="Enter site">
+            <span class="garden-scene" aria-hidden="true">
+                <span class="sun"></span>
+                <span class="cloud cloud-one"></span>
+                <span class="cloud cloud-two"></span>
+                <span class="hill hill-left"></span>
+                <span class="hill hill-right"></span>
+                <span class="path"></span>
+                <span class="flower-row flower-row-one">
+                    <span class="bloom"></span><span class="bloom"></span><span class="bloom"></span><span class="bloom"></span><span class="bloom"></span><span class="bloom"></span>
+                </span>
+                <span class="flower-row flower-row-two">
+                    <span class="bloom"></span><span class="bloom"></span><span class="bloom"></span><span class="bloom"></span><span class="bloom"></span><span class="bloom"></span>
+                </span>
+                <span class="flower-row flower-row-three">
+                    <span class="bloom"></span><span class="bloom"></span><span class="bloom"></span><span class="bloom"></span><span class="bloom"></span><span class="bloom"></span>
+                </span>
+            </span>
+        </button>
+        <h1 class="gate-title">PRAJWAL RAJ</h1>
+        <p class="gate-subtitle">ONE LAST TIME for the LOVE of ENGINEERING</p>
+        <p class="click-hint">Click the garden to enter</p>
+    </main>
+
+    <main class="app-shell" id="appShell" hidden>
+        <button class="music-control shell-music-control" data-music-control type="button" onclick="toggleMusic()">Music</button>
+        <iframe id="siteFrame" title="VTU Course Hub" src="about:blank"></iframe>
+    </main>
+
+    <script src="site.js"></script>
+</body>
+</html>
